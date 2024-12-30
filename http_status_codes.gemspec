@@ -4,7 +4,7 @@ require_relative "lib/http_status_codes/version"
 
 Gem::Specification.new do |spec|
   spec.name = "http_status_codes"
-  spec.version = HttpStatusCodes::VERSION
+  spec.version = HTTPStatusCodes::VERSION
   spec.authors = ["Mateusz Drewniak"]
   spec.email = ["m.drewniak@espago.com"]
 

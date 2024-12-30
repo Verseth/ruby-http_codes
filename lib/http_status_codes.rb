@@ -4,7 +4,7 @@ require_relative "http_status_codes/version"
 
 require "sorbet-runtime"
 
-module HttpStatusCodes
+module HTTPStatusCodes
   # A hash map that maps HTTP response status codes as integers to their names as strings.
   MAP = T.let(
     {
